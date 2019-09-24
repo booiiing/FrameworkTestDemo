@@ -10,7 +10,7 @@ target 'FrameworkTestDemo' do
   pod 'OpenSSL-Universal'
 
   target 'FrameworkTestDemoTests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
     pod 'OCMock'
   end
